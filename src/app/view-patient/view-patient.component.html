@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        
+    
+        
+        <th scope="col">ID</th>
+        <th scope="col">NAME</th>
+        <th scope="col">Doctor Nmae</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of data">
+       
+        <td>{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.dname}}</td>
+      
+      </tr>
+      
+    </tbody>
+  </table>

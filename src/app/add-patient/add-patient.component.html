@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="row g-3">
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="row g-3">
+            
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <label for="" class="form-label">Name</label>
+                <input name="name" [(ngModel)]="name" type="text" class="form-control">
+            </div>
+           
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <label for="" class="form-label">Doctor Name</label>
+                <input name="dname" [(ngModel)]="dname" type="text" class="form-control">
+            </div>
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <button (click)="readValue()" class="btn btn-success">submit</button>
+            </div>
+        </div>
+    </div>
+</div>
